@@ -1,16 +1,79 @@
-# React + Vite
+# Wall Calendar React Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive wall calendar UI built using React and Vite.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Interactive calendar with date range selection
+- Month navigation
+- Notes section for selected dates
+- Responsive design (desktop + mobile)
+- Real image background support
+- Clean UI with overlay and styled components
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite)
+- JavaScript (ES6)
+- CSS (inline styling)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+src/
+├── App.jsx
+├── WallCalendar.jsx
+├── main.jsx
+
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+
+
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+
+
+2. Navigate into project:
+
+
+cd YOUR_REPO
+
+
+3. Install dependencies:
+
+
+npm install
+
+
+4. Run development server:
+
+
+npm run dev
+
+
+5. Open in browser:
+
+
+http://localhost:5173
+
+
+## 📌 Design Choices
+
+- Used inline styles for simplicity and component-level styling
+- Added image overlay for better text visibility
+- Implemented custom calendar logic without external libraries
+- Used React state for date selection and notes handling
+
+## 📷 Preview
+
+Calendar UI with:
+- Background image
+- Month/year display
+- Interactive date selection
+
+---
+
+##  Author
+
+Daksh Aryan
